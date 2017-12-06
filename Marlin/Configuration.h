@@ -1474,7 +1474,7 @@
 // Panucatt VIKI LCD with status LEDs,
 // integrated click & L/R/U/D buttons, separate encoder inputs.
 //
-#define LCD_I2C_VIKI
+//#define LCD_I2C_VIKI
 
 //
 // SSD1306 OLED full graphics generic display
@@ -1513,7 +1513,7 @@
 // MKS MINI12864 with graphic controller and SD support
 // http://reprap.org/wiki/MKS_MINI_12864
 //
-//#define MKS_MINI_12864
+#define MKS_MINI_12864
 
 //
 // Factory display for Creality CR-10
