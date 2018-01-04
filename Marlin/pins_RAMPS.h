@@ -60,9 +60,9 @@
 #ifdef IS_RAMPS_13
   #define SERVO0_PIN        7 // RAMPS_13 // Will conflict with BTN_EN2 on LCD_I2C_VIKI
 #else
-  #define SERVO0_PIN       11
+  #define SERVO0_PIN       8 //11
 #endif
-#define SERVO1_PIN          6
+#define SERVO1_PIN          9 //6
 #define SERVO2_PIN          5
 #ifndef SERVO3_PIN
   #define SERVO3_PIN        4
@@ -153,13 +153,13 @@
   #define MOSFET_D_PIN  -1
 #endif
 #ifndef RAMPS_D8_PIN
-  #define RAMPS_D8_PIN   8
+  #define RAMPS_D8_PIN   8 //8
 #endif
 #ifndef RAMPS_D9_PIN
-  #define RAMPS_D9_PIN   9
+  #define RAMPS_D9_PIN   9 //9
 #endif
 #ifndef RAMPS_D10_PIN
-  #define RAMPS_D10_PIN 10
+  #define RAMPS_D10_PIN 10 //10
 #endif
 
 #define HEATER_0_PIN     RAMPS_D10_PIN
@@ -189,7 +189,7 @@
 #endif
 
 #ifndef FAN_PIN
-  #define FAN_PIN 4      // IO pin. Buffer needed
+  #define FAN_PIN 4      //4 IO pin. Buffer needed
 #endif
 
 //
